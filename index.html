@@ -523,7 +523,7 @@
    <tr onmouseout="simvs_stop()" onmouseover="simvs_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <img src='images/depthsr-cvpr-2020.jpg' width=100%>
+          <img src='images/depth-sr-cvpr-2020.jpg' width=100%>
         </div>
         <script type="text/javascript">
           function simvs_start() {
@@ -592,7 +592,40 @@
         <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Song_ApolloCar3D_A_Large_3D_Car_Instance_Understanding_Benchmark_for_Autonomous_CVPR_2019_paper.pdf"> pdf - CVPR (2019)</a>
         <p></p>
 	<p>
-	We propose a new framework for real-world DSR, which consists of four modules : 1) An iterative residual learning module with deep supervision to learn effective high-frequency components of depth maps in a coarse-to-fine manner; 2) A channel attention strategy to enhance channels with abundant high-frequency components; 3) A multi-stage fusion module to effectively reexploit the results in the coarse-to-fine process; and 4) A depth refinement module to improve the depth map by TGV regularization and input loss. 
+	In this paper, we contribute the first largescale database suitable for 3D car instance understanding – ApolloCar3D.
+	</p>
+      </td>
+    </tr>
+
+   <tr onmouseout="simvs_stop()" onmouseover="simvs_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/depthsr-tcsvt.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function simvs_start() {
+            document.getElementById('simvs_image').style.opacity = "1";
+          }
+
+          function simvs_stop() {
+            document.getElementById('simvs_image').style.opacity = "0";
+          }
+          simvs_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/1808.08688">
+          <span class="papertitle">Deeply supervised depth map super-resolution as novel view synthesis</span>
+        </a>
+        <br> Xibin Song, Yuchao Dai, Xueying Qin
+	<strong>Xibin Song</strong>,
+        <a>Yuchao Dai</a>,
+	<a>Xueying Qin</a>
+	<p></p>
+        <a href="https://arxiv.org/pdf/1808.08688"> pdf - IEEE Transactions on circuits and systems for video technology (2018)</a>
+        <p></p>
+	<p>
+		First, we propose to represent the task of depth map super-resolution as a series of novel view synthesis sub-tasks. The novel view synthesis sub-task aims at generating (synthesizing) a depth map from different camera pose, which could be learned in parallel. Second, to handle large up-sampling factors, we present a deeply supervised network structure to enforce strong supervision in each stage of the network. Third, a multi-scale fusion strategy is proposed to effectively exploit the feature maps at different scales and handle the blocking effect.
 	</p>
       </td>
     </tr>
